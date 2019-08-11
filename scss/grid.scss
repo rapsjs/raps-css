@@ -1,0 +1,24 @@
+// Corpo
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  // Body global config
+  font-family: "Play", sans-serif;
+  // CSS Grid
+  .item1 { grid-area: header; }
+  .item2 { grid-area: main;   }
+  .item3 { grid-area: footer; }
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header "
+      "main   "
+      "footer ";
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "raps-css",
+  "version": "0.1.0",
+  "description": "Quick CSS for small projects.",
+  "main": "./main.js",
+  "repository": "https://github.com/rapidinhas-js/raps-css.git",
+  "author": "Isac Petinate <ipetinate@viceri.com.br>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
