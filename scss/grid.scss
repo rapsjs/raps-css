@@ -8,17 +8,16 @@ body, html {
 }
 
 body {
-  // Body global config
-  font-family: "Play", sans-serif;
-  // CSS Grid
-  .item1 { grid-area: header; }
-  .item2 { grid-area: main;   }
-  .item3 { grid-area: footer; }
+  header { grid-area: header; }
+  main   { grid-area: main;   }
+  footer { grid-area: footer; }
+  
   .grid-container {
     display: grid;
+    grid-gap: 10px;
     grid-template-areas:
-      "header "
-      "main   "
-      "footer ";
+      "header"
+      "main"
+      "footer";
   }
 }
